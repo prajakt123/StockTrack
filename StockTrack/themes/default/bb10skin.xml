@@ -69,6 +69,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -199,6 +200,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -292,10 +294,11 @@
         <att name="Bg_left_image" value="" type="String"/>
         <att name="Bg_middle_image" value="" type="String"/>
         <att name="Bg_right_image" value="" type="String"/>
-        <att name="Bg10_slice_left_image" value="" type="String"/>
-        <att name="Bg10_slice_right_image" value="" type="String"/>
-        <att name="Bg10_slice_top_image" value="" type="String"/>
-        <att name="Bg10_slice_bottom_image" value="" type="String"/>
+        <att name="Bg_bb10slice_image" value="" type="String"/>
+        <att name="Bg10_slice_left" value="" type="String"/>
+        <att name="Bg10_slice_right" value="" type="String"/>
+        <att name="Bg10_slice_top" value="" type="String"/>
+        <att name="Bg10_slice_bottom" value="" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -337,6 +340,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="81,81,81" type="RGB"/>
         <att name="Border_width" value="1" type="Integer"/>
         <att name="Border_style" value="1" type="int"/>
@@ -467,6 +471,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -597,6 +602,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="214,218,219" type="RGB"/>
         <att name="Border_width" value="1" type="Integer"/>
         <att name="Border_style" value="1" type="int"/>
@@ -727,6 +733,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="28,113,193" type="RGB"/>
         <att name="Border_width" value="1" type="Integer"/>
         <att name="Border_style" value="1" type="int"/>
@@ -857,6 +864,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -987,6 +995,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -1080,10 +1089,11 @@
         <att name="Bg_left_image" value="" type="String"/>
         <att name="Bg_middle_image" value="" type="String"/>
         <att name="Bg_right_image" value="" type="String"/>
-        <att name="Bg10_slice_left_image" value="" type="String"/>
-        <att name="Bg10_slice_right_image" value="" type="String"/>
-        <att name="Bg10_slice_top_image" value="" type="String"/>
-        <att name="Bg10_slice_bottom_image" value="" type="String"/>
+        <att name="Bg_bb10slice_image" value="" type="String"/>
+        <att name="Bg10_slice_left" value="" type="String"/>
+        <att name="Bg10_slice_right" value="" type="String"/>
+        <att name="Bg10_slice_top" value="" type="String"/>
+        <att name="Bg10_slice_bottom" value="" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -1125,6 +1135,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -1218,10 +1229,11 @@
         <att name="Bg_left_image" value="" type="String"/>
         <att name="Bg_middle_image" value="" type="String"/>
         <att name="Bg_right_image" value="" type="String"/>
-        <att name="Bg10_slice_left_image" value="" type="String"/>
-        <att name="Bg10_slice_right_image" value="" type="String"/>
-        <att name="Bg10_slice_top_image" value="" type="String"/>
-        <att name="Bg10_slice_bottom_image" value="" type="String"/>
+        <att name="Bg_bb10slice_image" value="" type="String"/>
+        <att name="Bg10_slice_left" value="" type="String"/>
+        <att name="Bg10_slice_right" value="" type="String"/>
+        <att name="Bg10_slice_top" value="" type="String"/>
+        <att name="Bg10_slice_bottom" value="" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -1263,6 +1275,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="28,113,193" type="RGB"/>
         <att name="Border_width" value="1" type="Integer"/>
         <att name="Border_style" value="1" type="int"/>
@@ -1356,10 +1369,11 @@
         <att name="Bg_left_image" value="" type="String"/>
         <att name="Bg_middle_image" value="" type="String"/>
         <att name="Bg_right_image" value="" type="String"/>
-        <att name="Bg10_slice_left_image" value="" type="String"/>
-        <att name="Bg10_slice_right_image" value="" type="String"/>
-        <att name="Bg10_slice_top_image" value="" type="String"/>
-        <att name="Bg10_slice_bottom_image" value="" type="String"/>
+        <att name="Bg_bb10slice_image" value="" type="String"/>
+        <att name="Bg10_slice_left" value="" type="String"/>
+        <att name="Bg10_slice_right" value="" type="String"/>
+        <att name="Bg10_slice_top" value="" type="String"/>
+        <att name="Bg10_slice_bottom" value="" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -1401,6 +1415,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="81,81,81" type="RGB"/>
         <att name="Border_width" value="1" type="Integer"/>
         <att name="Border_style" value="1" type="int"/>
@@ -1494,10 +1509,11 @@
         <att name="Bg_left_image" value="" type="String"/>
         <att name="Bg_middle_image" value="" type="String"/>
         <att name="Bg_right_image" value="" type="String"/>
-        <att name="Bg10_slice_left_image" value="" type="String"/>
-        <att name="Bg10_slice_right_image" value="" type="String"/>
-        <att name="Bg10_slice_top_image" value="" type="String"/>
-        <att name="Bg10_slice_bottom_image" value="" type="String"/>
+        <att name="Bg_bb10slice_image" value="" type="String"/>
+        <att name="Bg10_slice_left" value="" type="String"/>
+        <att name="Bg10_slice_right" value="" type="String"/>
+        <att name="Bg10_slice_top" value="" type="String"/>
+        <att name="Bg10_slice_bottom" value="" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -1539,6 +1555,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="28,113,193" type="RGB"/>
         <att name="Border_width" value="1" type="Integer"/>
         <att name="Border_style" value="1" type="int"/>
@@ -1632,10 +1649,11 @@
         <att name="Bg_left_image" value="" type="String"/>
         <att name="Bg_middle_image" value="" type="String"/>
         <att name="Bg_right_image" value="" type="String"/>
-        <att name="Bg10_slice_left_image" value="" type="String"/>
-        <att name="Bg10_slice_right_image" value="" type="String"/>
-        <att name="Bg10_slice_top_image" value="" type="String"/>
-        <att name="Bg10_slice_bottom_image" value="" type="String"/>
+        <att name="Bg_bb10slice_image" value="" type="String"/>
+        <att name="Bg10_slice_left" value="" type="String"/>
+        <att name="Bg10_slice_right" value="" type="String"/>
+        <att name="Bg10_slice_top" value="" type="String"/>
+        <att name="Bg10_slice_bottom" value="" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -1677,6 +1695,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -1807,6 +1826,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -1937,6 +1957,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="28,113,193" type="RGB"/>
         <att name="Border_width" value="1" type="Integer"/>
         <att name="Border_style" value="1" type="int"/>
@@ -2067,6 +2088,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -2160,10 +2182,11 @@
         <att name="Bg_left_image" value="" type="String"/>
         <att name="Bg_middle_image" value="" type="String"/>
         <att name="Bg_right_image" value="" type="String"/>
-        <att name="Bg10_slice_left_image" value="" type="String"/>
-        <att name="Bg10_slice_right_image" value="" type="String"/>
-        <att name="Bg10_slice_top_image" value="" type="String"/>
-        <att name="Bg10_slice_bottom_image" value="" type="String"/>
+        <att name="Bg_bb10slice_image" value="" type="String"/>
+        <att name="Bg10_slice_left" value="" type="String"/>
+        <att name="Bg10_slice_right" value="" type="String"/>
+        <att name="Bg10_slice_top" value="" type="String"/>
+        <att name="Bg10_slice_bottom" value="" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -2205,6 +2228,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -2298,10 +2322,11 @@
         <att name="Bg_left_image" value="" type="String"/>
         <att name="Bg_middle_image" value="" type="String"/>
         <att name="Bg_right_image" value="" type="String"/>
-        <att name="Bg10_slice_left_image" value="" type="String"/>
-        <att name="Bg10_slice_right_image" value="" type="String"/>
-        <att name="Bg10_slice_top_image" value="" type="String"/>
-        <att name="Bg10_slice_bottom_image" value="" type="String"/>
+        <att name="Bg_bb10slice_image" value="" type="String"/>
+        <att name="Bg10_slice_left" value="" type="String"/>
+        <att name="Bg10_slice_right" value="" type="String"/>
+        <att name="Bg10_slice_top" value="" type="String"/>
+        <att name="Bg10_slice_bottom" value="" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -2343,6 +2368,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -2436,10 +2462,11 @@
         <att name="Bg_left_image" value="" type="String"/>
         <att name="Bg_middle_image" value="" type="String"/>
         <att name="Bg_right_image" value="" type="String"/>
-        <att name="Bg10_slice_left_image" value="" type="String"/>
-        <att name="Bg10_slice_right_image" value="" type="String"/>
-        <att name="Bg10_slice_top_image" value="" type="String"/>
-        <att name="Bg10_slice_bottom_image" value="" type="String"/>
+        <att name="Bg_bb10slice_image" value="" type="String"/>
+        <att name="Bg10_slice_left" value="" type="String"/>
+        <att name="Bg10_slice_right" value="" type="String"/>
+        <att name="Bg10_slice_top" value="" type="String"/>
+        <att name="Bg10_slice_bottom" value="" type="String"/>
         <att name="Bg_bb_image" value="b7.png" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -2481,6 +2508,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="81,81,81" type="RGB"/>
         <att name="Border_width" value="1" type="Integer"/>
         <att name="Border_style" value="1" type="int"/>
@@ -2611,6 +2639,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -2741,6 +2770,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="81,81,81" type="RGB"/>
         <att name="Border_width" value="1" type="Integer"/>
         <att name="Border_style" value="1" type="int"/>
@@ -2834,10 +2864,11 @@
         <att name="Bg_left_image" value="" type="String"/>
         <att name="Bg_middle_image" value="" type="String"/>
         <att name="Bg_right_image" value="" type="String"/>
-        <att name="Bg10_slice_left_image" value="" type="String"/>
-        <att name="Bg10_slice_right_image" value="" type="String"/>
-        <att name="Bg10_slice_top_image" value="" type="String"/>
-        <att name="Bg10_slice_bottom_image" value="" type="String"/>
+        <att name="Bg_bb10slice_image" value="" type="String"/>
+        <att name="Bg10_slice_left" value="" type="String"/>
+        <att name="Bg10_slice_right" value="" type="String"/>
+        <att name="Bg10_slice_top" value="" type="String"/>
+        <att name="Bg10_slice_bottom" value="" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -2879,6 +2910,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -2972,10 +3004,11 @@
         <att name="Bg_left_image" value="" type="String"/>
         <att name="Bg_middle_image" value="" type="String"/>
         <att name="Bg_right_image" value="" type="String"/>
-        <att name="Bg10_slice_left_image" value="" type="String"/>
-        <att name="Bg10_slice_right_image" value="" type="String"/>
-        <att name="Bg10_slice_top_image" value="" type="String"/>
-        <att name="Bg10_slice_bottom_image" value="" type="String"/>
+        <att name="Bg_bb10slice_image" value="" type="String"/>
+        <att name="Bg10_slice_left" value="" type="String"/>
+        <att name="Bg10_slice_right" value="" type="String"/>
+        <att name="Bg10_slice_top" value="" type="String"/>
+        <att name="Bg10_slice_bottom" value="" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -3017,6 +3050,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -3110,10 +3144,11 @@
         <att name="Bg_left_image" value="" type="String"/>
         <att name="Bg_middle_image" value="" type="String"/>
         <att name="Bg_right_image" value="" type="String"/>
-        <att name="Bg10_slice_left_image" value="" type="String"/>
-        <att name="Bg10_slice_right_image" value="" type="String"/>
-        <att name="Bg10_slice_top_image" value="" type="String"/>
-        <att name="Bg10_slice_bottom_image" value="" type="String"/>
+        <att name="Bg_bb10slice_image" value="" type="String"/>
+        <att name="Bg10_slice_left" value="" type="String"/>
+        <att name="Bg10_slice_right" value="" type="String"/>
+        <att name="Bg10_slice_top" value="" type="String"/>
+        <att name="Bg10_slice_bottom" value="" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -3155,6 +3190,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="27,147,226" type="RGB"/>
         <att name="Border_width" value="1" type="Integer"/>
         <att name="Border_style" value="1" type="int"/>
@@ -3285,6 +3321,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="81,81,81" type="RGB"/>
         <att name="Border_width" value="1" type="Integer"/>
         <att name="Border_style" value="1" type="int"/>
@@ -3378,10 +3415,11 @@
         <att name="Bg_left_image" value="" type="String"/>
         <att name="Bg_middle_image" value="" type="String"/>
         <att name="Bg_right_image" value="" type="String"/>
-        <att name="Bg10_slice_left_image" value="" type="String"/>
-        <att name="Bg10_slice_right_image" value="" type="String"/>
-        <att name="Bg10_slice_top_image" value="" type="String"/>
-        <att name="Bg10_slice_bottom_image" value="" type="String"/>
+        <att name="Bg_bb10slice_image" value="" type="String"/>
+        <att name="Bg10_slice_left" value="" type="String"/>
+        <att name="Bg10_slice_right" value="" type="String"/>
+        <att name="Bg10_slice_top" value="" type="String"/>
+        <att name="Bg10_slice_bottom" value="" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -3423,6 +3461,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -3516,10 +3555,11 @@
         <att name="Bg_left_image" value="" type="String"/>
         <att name="Bg_middle_image" value="" type="String"/>
         <att name="Bg_right_image" value="" type="String"/>
-        <att name="Bg10_slice_left_image" value="" type="String"/>
-        <att name="Bg10_slice_right_image" value="" type="String"/>
-        <att name="Bg10_slice_top_image" value="" type="String"/>
-        <att name="Bg10_slice_bottom_image" value="" type="String"/>
+        <att name="Bg_bb10slice_image" value="" type="String"/>
+        <att name="Bg10_slice_left" value="" type="String"/>
+        <att name="Bg10_slice_right" value="" type="String"/>
+        <att name="Bg10_slice_top" value="" type="String"/>
+        <att name="Bg10_slice_bottom" value="" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -3561,6 +3601,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="27,147,226" type="RGB"/>
         <att name="Border_width" value="1" type="Integer"/>
         <att name="Border_style" value="1" type="int"/>
@@ -3691,6 +3732,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="81,81,81" type="RGB"/>
         <att name="Border_width" value="1" type="Integer"/>
         <att name="Border_style" value="1" type="int"/>
@@ -3784,10 +3826,11 @@
         <att name="Bg_left_image" value="" type="String"/>
         <att name="Bg_middle_image" value="" type="String"/>
         <att name="Bg_right_image" value="" type="String"/>
-        <att name="Bg10_slice_left_image" value="" type="String"/>
-        <att name="Bg10_slice_right_image" value="" type="String"/>
-        <att name="Bg10_slice_top_image" value="" type="String"/>
-        <att name="Bg10_slice_bottom_image" value="" type="String"/>
+        <att name="Bg_bb10slice_image" value="" type="String"/>
+        <att name="Bg10_slice_left" value="" type="String"/>
+        <att name="Bg10_slice_right" value="" type="String"/>
+        <att name="Bg10_slice_top" value="" type="String"/>
+        <att name="Bg10_slice_bottom" value="" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -3829,6 +3872,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -3922,10 +3966,11 @@
         <att name="Bg_left_image" value="" type="String"/>
         <att name="Bg_middle_image" value="" type="String"/>
         <att name="Bg_right_image" value="" type="String"/>
-        <att name="Bg10_slice_left_image" value="" type="String"/>
-        <att name="Bg10_slice_right_image" value="" type="String"/>
-        <att name="Bg10_slice_top_image" value="" type="String"/>
-        <att name="Bg10_slice_bottom_image" value="" type="String"/>
+        <att name="Bg_bb10slice_image" value="" type="String"/>
+        <att name="Bg10_slice_left" value="" type="String"/>
+        <att name="Bg10_slice_right" value="" type="String"/>
+        <att name="Bg10_slice_top" value="" type="String"/>
+        <att name="Bg10_slice_bottom" value="" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -3967,6 +4012,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="27,147,226" type="RGB"/>
         <att name="Border_width" value="1" type="Integer"/>
         <att name="Border_style" value="1" type="int"/>
@@ -4060,10 +4106,11 @@
         <att name="Bg_left_image" value="" type="String"/>
         <att name="Bg_middle_image" value="" type="String"/>
         <att name="Bg_right_image" value="" type="String"/>
-        <att name="Bg10_slice_left_image" value="" type="String"/>
-        <att name="Bg10_slice_right_image" value="" type="String"/>
-        <att name="Bg10_slice_top_image" value="" type="String"/>
-        <att name="Bg10_slice_bottom_image" value="" type="String"/>
+        <att name="Bg_bb10slice_image" value="" type="String"/>
+        <att name="Bg10_slice_left" value="" type="String"/>
+        <att name="Bg10_slice_right" value="" type="String"/>
+        <att name="Bg10_slice_top" value="" type="String"/>
+        <att name="Bg10_slice_bottom" value="" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -4105,6 +4152,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -4198,10 +4246,11 @@
         <att name="Bg_left_image" value="" type="String"/>
         <att name="Bg_middle_image" value="" type="String"/>
         <att name="Bg_right_image" value="" type="String"/>
-        <att name="Bg10_slice_left_image" value="" type="String"/>
-        <att name="Bg10_slice_right_image" value="" type="String"/>
-        <att name="Bg10_slice_top_image" value="" type="String"/>
-        <att name="Bg10_slice_bottom_image" value="" type="String"/>
+        <att name="Bg_bb10slice_image" value="" type="String"/>
+        <att name="Bg10_slice_left" value="" type="String"/>
+        <att name="Bg10_slice_right" value="" type="String"/>
+        <att name="Bg10_slice_top" value="" type="String"/>
+        <att name="Bg10_slice_bottom" value="" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -4243,6 +4292,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -4336,10 +4386,11 @@
         <att name="Bg_left_image" value="" type="String"/>
         <att name="Bg_middle_image" value="" type="String"/>
         <att name="Bg_right_image" value="" type="String"/>
-        <att name="Bg10_slice_left_image" value="" type="String"/>
-        <att name="Bg10_slice_right_image" value="" type="String"/>
-        <att name="Bg10_slice_top_image" value="" type="String"/>
-        <att name="Bg10_slice_bottom_image" value="" type="String"/>
+        <att name="Bg_bb10slice_image" value="" type="String"/>
+        <att name="Bg10_slice_left" value="" type="String"/>
+        <att name="Bg10_slice_right" value="" type="String"/>
+        <att name="Bg10_slice_top" value="" type="String"/>
+        <att name="Bg10_slice_bottom" value="" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -4381,6 +4432,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -4511,6 +4563,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="81,81,81" type="RGB"/>
         <att name="Border_width" value="1" type="Integer"/>
         <att name="Border_style" value="1" type="int"/>
@@ -4641,6 +4694,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="28,113,193" type="RGB"/>
         <att name="Border_width" value="1" type="Integer"/>
         <att name="Border_style" value="1" type="int"/>
@@ -4734,10 +4788,11 @@
         <att name="Bg_left_image" value="" type="String"/>
         <att name="Bg_middle_image" value="" type="String"/>
         <att name="Bg_right_image" value="" type="String"/>
-        <att name="Bg10_slice_left_image" value="" type="String"/>
-        <att name="Bg10_slice_right_image" value="" type="String"/>
-        <att name="Bg10_slice_top_image" value="" type="String"/>
-        <att name="Bg10_slice_bottom_image" value="" type="String"/>
+        <att name="Bg_bb10slice_image" value="" type="String"/>
+        <att name="Bg10_slice_left" value="" type="String"/>
+        <att name="Bg10_slice_right" value="" type="String"/>
+        <att name="Bg10_slice_top" value="" type="String"/>
+        <att name="Bg10_slice_bottom" value="" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -4779,6 +4834,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -4909,6 +4965,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -5002,10 +5059,11 @@
         <att name="Bg_left_image" value="" type="String"/>
         <att name="Bg_middle_image" value="" type="String"/>
         <att name="Bg_right_image" value="" type="String"/>
-        <att name="Bg10_slice_left_image" value="" type="String"/>
-        <att name="Bg10_slice_right_image" value="" type="String"/>
-        <att name="Bg10_slice_top_image" value="" type="String"/>
-        <att name="Bg10_slice_bottom_image" value="" type="String"/>
+        <att name="Bg_bb10slice_image" value="" type="String"/>
+        <att name="Bg10_slice_left" value="" type="String"/>
+        <att name="Bg10_slice_right" value="" type="String"/>
+        <att name="Bg10_slice_top" value="" type="String"/>
+        <att name="Bg10_slice_bottom" value="" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -5047,6 +5105,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -5140,10 +5199,11 @@
         <att name="Bg_left_image" value="" type="String"/>
         <att name="Bg_middle_image" value="" type="String"/>
         <att name="Bg_right_image" value="" type="String"/>
-        <att name="Bg10_slice_left_image" value="" type="String"/>
-        <att name="Bg10_slice_right_image" value="" type="String"/>
-        <att name="Bg10_slice_top_image" value="" type="String"/>
-        <att name="Bg10_slice_bottom_image" value="" type="String"/>
+        <att name="Bg_bb10slice_image" value="" type="String"/>
+        <att name="Bg10_slice_left" value="" type="String"/>
+        <att name="Bg10_slice_right" value="" type="String"/>
+        <att name="Bg10_slice_top" value="" type="String"/>
+        <att name="Bg10_slice_bottom" value="" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -5185,6 +5245,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -5278,10 +5339,11 @@
         <att name="Bg_left_image" value="" type="String"/>
         <att name="Bg_middle_image" value="" type="String"/>
         <att name="Bg_right_image" value="" type="String"/>
-        <att name="Bg10_slice_left_image" value="" type="String"/>
-        <att name="Bg10_slice_right_image" value="" type="String"/>
-        <att name="Bg10_slice_top_image" value="" type="String"/>
-        <att name="Bg10_slice_bottom_image" value="" type="String"/>
+        <att name="Bg_bb10slice_image" value="" type="String"/>
+        <att name="Bg10_slice_left" value="" type="String"/>
+        <att name="Bg10_slice_right" value="" type="String"/>
+        <att name="Bg10_slice_top" value="" type="String"/>
+        <att name="Bg10_slice_bottom" value="" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -5323,6 +5385,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="81,81,81" type="RGB"/>
         <att name="Border_width" value="1" type="Integer"/>
         <att name="Border_style" value="1" type="int"/>
@@ -5453,6 +5516,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -5546,10 +5610,11 @@
         <att name="Bg_left_image" value="" type="String"/>
         <att name="Bg_middle_image" value="" type="String"/>
         <att name="Bg_right_image" value="" type="String"/>
-        <att name="Bg10_slice_left_image" value="" type="String"/>
-        <att name="Bg10_slice_right_image" value="" type="String"/>
-        <att name="Bg10_slice_top_image" value="" type="String"/>
-        <att name="Bg10_slice_bottom_image" value="" type="String"/>
+        <att name="Bg_bb10slice_image" value="" type="String"/>
+        <att name="Bg10_slice_left" value="" type="String"/>
+        <att name="Bg10_slice_right" value="" type="String"/>
+        <att name="Bg10_slice_top" value="" type="String"/>
+        <att name="Bg10_slice_bottom" value="" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -5591,6 +5656,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="81,81,81" type="RGB"/>
         <att name="Border_width" value="1" type="Integer"/>
         <att name="Border_style" value="1" type="int"/>
@@ -5684,10 +5750,11 @@
         <att name="Bg_left_image" value="" type="String"/>
         <att name="Bg_middle_image" value="" type="String"/>
         <att name="Bg_right_image" value="" type="String"/>
-        <att name="Bg10_slice_left_image" value="" type="String"/>
-        <att name="Bg10_slice_right_image" value="" type="String"/>
-        <att name="Bg10_slice_top_image" value="" type="String"/>
-        <att name="Bg10_slice_bottom_image" value="" type="String"/>
+        <att name="Bg_bb10slice_image" value="" type="String"/>
+        <att name="Bg10_slice_left" value="" type="String"/>
+        <att name="Bg10_slice_right" value="" type="String"/>
+        <att name="Bg10_slice_top" value="" type="String"/>
+        <att name="Bg10_slice_bottom" value="" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -5729,6 +5796,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -5859,6 +5927,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -5952,10 +6021,11 @@
         <att name="Bg_left_image" value="" type="String"/>
         <att name="Bg_middle_image" value="" type="String"/>
         <att name="Bg_right_image" value="" type="String"/>
-        <att name="Bg10_slice_left_image" value="" type="String"/>
-        <att name="Bg10_slice_right_image" value="" type="String"/>
-        <att name="Bg10_slice_top_image" value="" type="String"/>
-        <att name="Bg10_slice_bottom_image" value="" type="String"/>
+        <att name="Bg_bb10slice_image" value="" type="String"/>
+        <att name="Bg10_slice_left" value="" type="String"/>
+        <att name="Bg10_slice_right" value="" type="String"/>
+        <att name="Bg10_slice_top" value="" type="String"/>
+        <att name="Bg10_slice_bottom" value="" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -5997,6 +6067,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -6127,6 +6198,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -6257,6 +6329,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="28,113,193" type="RGB"/>
         <att name="Border_width" value="1" type="Integer"/>
         <att name="Border_style" value="1" type="int"/>
@@ -6350,10 +6423,11 @@
         <att name="Bg_left_image" value="" type="String"/>
         <att name="Bg_middle_image" value="" type="String"/>
         <att name="Bg_right_image" value="" type="String"/>
-        <att name="Bg10_slice_left_image" value="" type="String"/>
-        <att name="Bg10_slice_right_image" value="" type="String"/>
-        <att name="Bg10_slice_top_image" value="" type="String"/>
-        <att name="Bg10_slice_bottom_image" value="" type="String"/>
+        <att name="Bg_bb10slice_image" value="" type="String"/>
+        <att name="Bg10_slice_left" value="" type="String"/>
+        <att name="Bg10_slice_right" value="" type="String"/>
+        <att name="Bg10_slice_top" value="" type="String"/>
+        <att name="Bg10_slice_bottom" value="" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -6395,6 +6469,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -6525,6 +6600,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="28,113,193" type="RGB"/>
         <att name="Border_width" value="1" type="Integer"/>
         <att name="Border_style" value="1" type="int"/>
@@ -6655,6 +6731,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>

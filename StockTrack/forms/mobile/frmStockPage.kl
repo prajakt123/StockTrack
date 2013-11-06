@@ -1422,6 +1422,7 @@
             </gridviewConfig>
             <symbian_position>0</symbian_position>
             <tooltip></tooltip>
+            <tc_position>0</tc_position>
             <TCBlockedUISkin>Skin Defaults</TCBlockedUISkin>
             <wapDirection>0</wapDirection>
             <spa_blockedUISkin>Skin Defaults</spa_blockedUISkin>
@@ -2732,6 +2733,7 @@
             </gridviewConfig>
             <symbian_position>0</symbian_position>
             <tooltip></tooltip>
+            <tc_position>0</tc_position>
             <TCBlockedUISkin>Skin Defaults</TCBlockedUISkin>
             <wapDirection>0</wapDirection>
             <spa_blockedUISkin>Skin Defaults</spa_blockedUISkin>
@@ -5583,6 +5585,7 @@
                 </gridviewConfig>
                 <symbian_position>0</symbian_position>
                 <tooltip></tooltip>
+                <tc_position>0</tc_position>
                 <TCBlockedUISkin>Skin Defaults</TCBlockedUISkin>
                 <wapDirection>0</wapDirection>
                 <spa_blockedUISkin>Skin Defaults</spa_blockedUISkin>
@@ -5945,7 +5948,7 @@
                         <android>
                             <left>0</left>
                             <right>0</right>
-                            <top>0</top>
+                            <top>3</top>
                             <bottom>0</bottom>
                             <unit>%</unit>
                         </android>
@@ -5953,7 +5956,7 @@
                         <bb>
                             <left>0</left>
                             <right>0</right>
-                            <top>0</top>
+                            <top>3</top>
                             <bottom>0</bottom>
                             <unit>%</unit>
                         </bb>
@@ -6001,7 +6004,7 @@
                         <iphonerc>
                             <left>0</left>
                             <right>0</right>
-                            <top>0</top>
+                            <top>3</top>
                             <bottom>0</bottom>
                             <unit>%</unit>
                         </iphonerc>
@@ -6259,7 +6262,7 @@
                         <skinId>sknLblTicker</skinId>
                         <focusSkinId>Skin Defaults</focusSkinId>
                         <localeId>None</localeId>
-                        <visible>true</visible>
+                        <visible>false</visible>
                         <rendererData>
                             <desktop_kiosk_channel>true</desktop_kiosk_channel>
                             <desktop_web_channel>true</desktop_web_channel>
@@ -6904,8 +6907,8 @@
                         </sizePercent>
                         <skinId>Skin Defaults</skinId>
                         <focusSkinId>Skin Defaults</focusSkinId>
-                        <referenceWidth>212</referenceWidth>
-                        <referenceHeight>116</referenceHeight>
+                        <referenceWidth>300</referenceWidth>
+                        <referenceHeight>200</referenceHeight>
                         <localeId>None</localeId>
                         <visible>true</visible>
                         <rendererData>
@@ -6987,7 +6990,7 @@
                             <defaults>
                                 <left>0</left>
                                 <right>0</right>
-                                <top>0</top>
+                                <top>3</top>
                                 <bottom>0</bottom>
                                 <unit>%</unit>
                             </defaults>
@@ -9579,6 +9582,8 @@
             </evtSequence>
         </bb10_onEscape10_root>
         <bb10_softkeyMode>FORM_ADJUST_RESIZE</bb10_softkeyMode>
+        <bb10_showbottomactionbar>true</bb10_showbottomactionbar>
+        <bb10_enablepeekgesture>true</bb10_enablepeekgesture>
     </children>
     <children xsi:type="kMenuContainer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         <ID></ID>

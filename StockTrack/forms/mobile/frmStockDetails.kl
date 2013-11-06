@@ -1402,6 +1402,7 @@
             </gridviewConfig>
             <symbian_position>0</symbian_position>
             <tooltip></tooltip>
+            <tc_position>0</tc_position>
             <TCBlockedUISkin>Skin Defaults</TCBlockedUISkin>
             <wapDirection>0</wapDirection>
             <spa_blockedUISkin>Skin Defaults</spa_blockedUISkin>
@@ -2709,6 +2710,7 @@
             </gridviewConfig>
             <symbian_position>0</symbian_position>
             <tooltip></tooltip>
+            <tc_position>0</tc_position>
             <TCBlockedUISkin>Skin Defaults</TCBlockedUISkin>
             <wapDirection>0</wapDirection>
             <spa_blockedUISkin>Skin Defaults</spa_blockedUISkin>
@@ -3096,7 +3098,7 @@
                     <defaults>
                         <left>1</left>
                         <right>1</right>
-                        <top>1</top>
+                        <top>3</top>
                         <bottom>1</bottom>
                         <unit>%</unit>
                     </defaults>
@@ -3385,7 +3387,7 @@
                     <skinId>sknLblTicker</skinId>
                     <focusSkinId>Skin Defaults</focusSkinId>
                     <localeId>None</localeId>
-                    <visible>true</visible>
+                    <visible>false</visible>
                     <rendererData>
                         <desktop_kiosk_channel>true</desktop_kiosk_channel>
                         <desktop_web_channel>true</desktop_web_channel>
@@ -4030,8 +4032,8 @@
                     </sizePercent>
                     <skinId>Skin Defaults</skinId>
                     <focusSkinId>Skin Defaults</focusSkinId>
-                    <referenceWidth>212</referenceWidth>
-                    <referenceHeight>116</referenceHeight>
+                    <referenceWidth></referenceWidth>
+                    <referenceHeight></referenceHeight>
                     <localeId>None</localeId>
                     <visible>true</visible>
                     <rendererData>
@@ -4111,9 +4113,9 @@
                         <bb_override>true</bb_override>
                         <default_override>true</default_override>
                         <defaults>
-                            <left>0</left>
+                            <left>1</left>
                             <right>0</right>
-                            <top>0</top>
+                            <top>3</top>
                             <bottom>0</bottom>
                             <unit>%</unit>
                         </defaults>
@@ -4626,7 +4628,7 @@
                     <contentAlign>4</contentAlign>
                     <defaultImageText></defaultImageText>
                     <animationText>loading1.png</animationText>
-                    <scale_mode>0</scale_mode>
+                    <scale_mode>1</scale_mode>
                     <itemSkinId>Skin Defaults</itemSkinId>
                     <itemFocusSkinId>Skin Defaults</itemFocusSkinId>
                     <iphone_glossy_effect>0</iphone_glossy_effect>
@@ -5355,6 +5357,7 @@
             </gridviewConfig>
             <symbian_position>0</symbian_position>
             <tooltip></tooltip>
+            <tc_position>0</tc_position>
             <TCBlockedUISkin>Skin Defaults</TCBlockedUISkin>
             <wapDirection>0</wapDirection>
             <spa_blockedUISkin>Skin Defaults</spa_blockedUISkin>
@@ -7306,6 +7309,7 @@
             </gridviewConfig>
             <symbian_position>0</symbian_position>
             <tooltip></tooltip>
+            <tc_position>0</tc_position>
             <TCBlockedUISkin>Skin Defaults</TCBlockedUISkin>
             <wapDirection>0</wapDirection>
             <spa_blockedUISkin>Skin Defaults</spa_blockedUISkin>
@@ -9257,6 +9261,7 @@
             </gridviewConfig>
             <symbian_position>0</symbian_position>
             <tooltip></tooltip>
+            <tc_position>0</tc_position>
             <TCBlockedUISkin>Skin Defaults</TCBlockedUISkin>
             <wapDirection>0</wapDirection>
             <spa_blockedUISkin>Skin Defaults</spa_blockedUISkin>
@@ -10562,6 +10567,7 @@
             </gridviewConfig>
             <symbian_position>0</symbian_position>
             <tooltip></tooltip>
+            <tc_position>0</tc_position>
             <TCBlockedUISkin>Skin Defaults</TCBlockedUISkin>
             <wapDirection>0</wapDirection>
             <spa_blockedUISkin>Skin Defaults</spa_blockedUISkin>
@@ -12513,6 +12519,7 @@
             </gridviewConfig>
             <symbian_position>0</symbian_position>
             <tooltip></tooltip>
+            <tc_position>0</tc_position>
             <TCBlockedUISkin>Skin Defaults</TCBlockedUISkin>
             <wapDirection>0</wapDirection>
             <spa_blockedUISkin>Skin Defaults</spa_blockedUISkin>
@@ -14464,6 +14471,7 @@
             </gridviewConfig>
             <symbian_position>0</symbian_position>
             <tooltip></tooltip>
+            <tc_position>0</tc_position>
             <TCBlockedUISkin>Skin Defaults</TCBlockedUISkin>
             <wapDirection>0</wapDirection>
             <spa_blockedUISkin>Skin Defaults</spa_blockedUISkin>
@@ -16415,6 +16423,7 @@
             </gridviewConfig>
             <symbian_position>0</symbian_position>
             <tooltip></tooltip>
+            <tc_position>0</tc_position>
             <TCBlockedUISkin>Skin Defaults</TCBlockedUISkin>
             <wapDirection>0</wapDirection>
             <spa_blockedUISkin>Skin Defaults</spa_blockedUISkin>
@@ -18354,10 +18363,31 @@
                                 <key>js</key>
                                 <value>getMoreInfo</value>
                             </entry>
+                            <entry>
+                                <key>lua</key>
+                                <value>None</value>
+                            </entry>
                         </functionNameMap>
                         <paramDataMap>
                             <entry>
                                 <key>js</key>
+                                <value>
+                                    <paramList>
+                                        <datatype>string</datatype>
+                                        <paramName>sym</paramName>
+                                        <valType>0</valType>
+                                        <value>frmStockDetails.lblTicker.text</value>
+                                        <valueMap>
+                                            <entry>
+                                                <key>js</key>
+                                                <value>frmStockDetails.lblTicker.text</value>
+                                            </entry>
+                                        </valueMap>
+                                    </paramList>
+                                </value>
+                            </entry>
+                            <entry>
+                                <key>lua</key>
                                 <value/>
                             </entry>
                         </paramDataMap>
@@ -18484,6 +18514,8 @@
             </evtSequence>
         </bb10_onEscape10_root>
         <bb10_softkeyMode>FORM_ADJUST_RESIZE</bb10_softkeyMode>
+        <bb10_showbottomactionbar>true</bb10_showbottomactionbar>
+        <bb10_enablepeekgesture>true</bb10_enablepeekgesture>
     </children>
     <children xsi:type="kMenuContainer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         <ID></ID>

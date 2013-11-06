@@ -8,7 +8,7 @@
 
 function getStockList()
 {
-	var stockList = { serviceID:"getStock"};
+	var stockList = { serviceID:"getStocks"};
 	var getStock = appmiddlewareinvokerasync(stockList, stockListCallback);
 	
 }
@@ -24,18 +24,25 @@ function stockListCallback(status, stocksList)
 {
 		if(status == 400){
 			 var stockDetailTmp =[];
-			 var pri = "0.00"
+			 var pri = "";
+			 var imgURL="",sym="";
 			 if(( stocksList!=null || stocksList!= undefined ) && stocksList["opstatus"]==0){
 			 	stockResultTable = stocksList["stocks"];
+			 	kony.print("stockResultTable: "+JSON.stringify(stockResultTable));
 			 	for(var i=0;i<stocksList["stocks"].length;i++){
-					pri = stocksList["stocks"][i]["price"]
+					pri = stocksList["stocks"][i]["price"];
+					sym=stocksList["stocks"][i]["symbol"];
+					if(isMobile)
+					imgURL ="http://chart.finance.yahoo.com/z?s="+sym+"&z=s";
+					else
+					imgURL ="http://chart.finance.yahoo.com/z?s="+sym+"&z=l";
 					if( pri == "")
 					  pri = "0.00";
 						stockDetailTmp.push({
 							"lblTicker":stocksList["stocks"][i]["symbol"],
 							"lblName":stocksList["stocks"][i]["company"],
 							"lblPrice":"$"+pri,
-							"imgStock":stocksList["stocks"][i]["imgUrl"]
+							"imgStock":stocksList["stocks"][i]["symbol"]
 								});
 				}
 					frmStockList.segStock.setData(stockDetailTmp);
@@ -63,13 +70,12 @@ function segStockPage()
 	var stockDetailTmp = [];
 	var img = "";
 	for(var i=0;i<stockResultTable.length;i++){
-	 img= stockResultTable[i]["imgUrl"].replace("&amp;","&");
 		stockDetailTmp.push({
 		     "lblTicker":stockResultTable[i]["symbol"],
-		     "imgStock": "https://www.google.com"+img,
+		     "imgStock":  "http://chart.finance.yahoo.com/z?s="+stockResultTable[i]["symbol"]+"&z=s",
 		     "lblCompany":stockResultTable[i]["company"],
 		     "lblPrice":stockResultTable[i]["price"],
-		     "lblUSD":stockResultTable[i]["currency"]
+		     "lblUSD":"USD"
 		     });
 	}
 	
@@ -94,14 +100,13 @@ function getStockDetails(eventobject)
   }
   }
    frmStockDetails.lblTicker.text = stockDetails["symbol"];
-   frmStockDetails.imgStock.src = "https://www.google.com"+stockDetails["imgUrl"];
+   frmStockDetails.imgStock.src =  "http://chart.finance.yahoo.com/z?s="+stockDetails["symbol"]+"&z=s";
    frmStockDetails.lblCompany.text = stockDetails["company"];
    frmStockDetails.lblExch.text = stockDetails["exchange"];
    frmStockDetails.lblLow.text = stockDetails["low"];
    frmStockDetails.lblHigh.text = stockDetails["high"];
    frmStockDetails.lblLast.text = stockDetails["last"];
-   frmStockDetails.lblCurr.text = stockDetails["currency"];
-   url = stockDetails["url"].replace("&amp;","&");
+   frmStockDetails.lblCurr.text = "USD";
    frmStockDetails.show();
 
 }
@@ -113,9 +118,9 @@ function getStockDetails(eventobject)
 ****************************************************************
 */
 
-function getMoreInfo()
+function getMoreInfo(sym)
 {
-	kony.application.openURL("https://www.google.com"+url);
+	kony.application.openURL("http://in.finance.yahoo.com/q?s="+sym);
 
 }
 /**
@@ -147,15 +152,15 @@ function getStockDetilsTablet(eventobject)
   }
   if(stockDetails!=null){
    frmStockList.lblCom.text = stockDetails["company"];
-   frmStockList.lblPriceUSD.text = stockDetails["price"]+" "+stockDetails["currency"];
-   frmStockList.imgStockChart.src = "https://www.google.com"+stockDetails["imgUrl"];
+   frmStockList.lblPriceUSD.text = stockDetails["price"]+" USD";
+   frmStockList.imgStockChart.src = "http://chart.finance.yahoo.com/z?s="+stockDetails["symbol"]+"&z=l";
    frmStockList.lblCom1.text = stockDetails["company"];  
    frmStockList.lblExc.text = stockDetails["exchange"];
    frmStockList.lblLow.text = stockDetails["low"];
    frmStockList.lblHigh.text = stockDetails["high"];
    frmStockList.lblLast.text = stockDetails["last"];
-   frmStockList.lblCurr.text = stockDetails["currency"];
-   url = stockDetails["url"].replace("&amp;","&");
+   frmStockList.lblCurr.text = "USD";   
+   symbl=stockDetails["symbol"];
    }
    frmStockList.show();
   

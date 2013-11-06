@@ -1428,6 +1428,7 @@
             </gridviewConfig>
             <symbian_position>0</symbian_position>
             <tooltip></tooltip>
+            <tc_position>0</tc_position>
             <TCBlockedUISkin>Skin Defaults</TCBlockedUISkin>
             <wapDirection>0</wapDirection>
             <spa_blockedUISkin>Skin Defaults</spa_blockedUISkin>
@@ -3634,6 +3635,7 @@
                         </gridviewConfig>
                         <symbian_position>0</symbian_position>
                         <tooltip></tooltip>
+                        <tc_position>0</tc_position>
                         <TCBlockedUISkin>Skin Defaults</TCBlockedUISkin>
                         <wapDirection>0</wapDirection>
                         <spa_blockedUISkin>Skin Defaults</spa_blockedUISkin>
@@ -5577,6 +5579,7 @@
                     </gridviewConfig>
                     <symbian_position>0</symbian_position>
                     <tooltip></tooltip>
+                    <tc_position>0</tc_position>
                     <TCBlockedUISkin>Skin Defaults</TCBlockedUISkin>
                     <wapDirection>0</wapDirection>
                     <spa_blockedUISkin>Skin Defaults</spa_blockedUISkin>
@@ -7513,10 +7516,31 @@
                                         <key>js</key>
                                         <value>getMoreInfo</value>
                                     </entry>
+                                    <entry>
+                                        <key>lua</key>
+                                        <value>None</value>
+                                    </entry>
                                 </functionNameMap>
                                 <paramDataMap>
                                     <entry>
                                         <key>js</key>
+                                        <value>
+                                            <paramList>
+                                                <datatype>string</datatype>
+                                                <paramName>sym</paramName>
+                                                <valType>0</valType>
+                                                <value> symbl</value>
+                                                <valueMap>
+                                                    <entry>
+                                                        <key>js</key>
+                                                        <value> symbl</value>
+                                                    </entry>
+                                                </valueMap>
+                                            </paramList>
+                                        </value>
+                                    </entry>
+                                    <entry>
+                                        <key>lua</key>
                                         <value/>
                                     </entry>
                                 </paramDataMap>
@@ -7552,6 +7576,7 @@
                     </gridviewConfig>
                     <symbian_position>0</symbian_position>
                     <tooltip></tooltip>
+                    <tc_position>0</tc_position>
                     <TCBlockedUISkin>Skin Defaults</TCBlockedUISkin>
                     <wapDirection>0</wapDirection>
                     <spa_blockedUISkin>Skin Defaults</spa_blockedUISkin>
@@ -7592,8 +7617,8 @@
                         </sizePercent>
                         <skinId>Skin Defaults</skinId>
                         <focusSkinId>Skin Defaults</focusSkinId>
-                        <referenceWidth>600</referenceWidth>
-                        <referenceHeight>300</referenceHeight>
+                        <referenceWidth></referenceWidth>
+                        <referenceHeight></referenceHeight>
                         <localeId>None</localeId>
                         <visible>true</visible>
                         <rendererData>
@@ -8188,7 +8213,7 @@
                         <contentAlign>4</contentAlign>
                         <defaultImageText></defaultImageText>
                         <animationText></animationText>
-                        <scale_mode>0</scale_mode>
+                        <scale_mode>1</scale_mode>
                         <itemSkinId>Skin Defaults</itemSkinId>
                         <itemFocusSkinId>Skin Defaults</itemFocusSkinId>
                         <iphone_glossy_effect>0</iphone_glossy_effect>
@@ -8909,6 +8934,7 @@
                     </gridviewConfig>
                     <symbian_position>0</symbian_position>
                     <tooltip></tooltip>
+                    <tc_position>0</tc_position>
                     <TCBlockedUISkin>Skin Defaults</TCBlockedUISkin>
                     <wapDirection>0</wapDirection>
                     <spa_blockedUISkin>Skin Defaults</spa_blockedUISkin>
@@ -12152,6 +12178,7 @@
                     </gridviewConfig>
                     <symbian_position>0</symbian_position>
                     <tooltip></tooltip>
+                    <tc_position>0</tc_position>
                     <TCBlockedUISkin>Skin Defaults</TCBlockedUISkin>
                     <wapDirection>0</wapDirection>
                     <spa_blockedUISkin>Skin Defaults</spa_blockedUISkin>
@@ -20625,6 +20652,8 @@
             </evtSequence>
         </bb10_onEscape10_root>
         <bb10_softkeyMode>FORM_ADJUST_RESIZE</bb10_softkeyMode>
+        <bb10_showbottomactionbar>true</bb10_showbottomactionbar>
+        <bb10_enablepeekgesture>true</bb10_enablepeekgesture>
     </children>
     <children xsi:type="kMenuContainer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         <ID></ID>

@@ -3,9 +3,9 @@
       <config-param name="APP_SMS_HEADER" value="null"/>
    </app-config>
    <services>
-      <service cachable="false" cacheduration="" id="getStock" passwordencrypted="true" smscode="" smsenabled="false" type="plainxmlserviceConnector">
+      <service cachable="false" cacheduration="" id="getStocks" passwordencrypted="true" smscode="" smsenabled="false" type="plainxmlserviceConnector">
          <service-config>
-            <config-param name="endpointUrl" value="http://www.google.com/ig/api?stock=AAPL&amp;stock=GOOG&amp;stock=MSFT&amp;stock=CSCO&amp;stock=INTC&amp;stock=HPQ&amp;stock=IBM&amp;stock=FB&amp;stock=NVDA&amp;stock=AMD&amp;stock=TCX&amp;stock=BBRY&amp;stock=ORCL&amp;stock=ELNK&amp;stock=XRX&amp;stock=ADSK&amp;stock=WDC&amp;stock=ELOQ&amp;stock=ET&amp;stock=VRSN"/>
+            <config-param name="endpointUrl" value="http://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20yahoo.finance.quotes%20where%20symbol%20in%20%28%22AAPL,GOOG,MSFT,CSCO,BBRY,ORCL,IBM,FB,NVDA,HPQ%22%29&amp;env=store://datatables.org/alltableswithkeys"/>
             <config-param name="postprocessorname" value=""/>
             <config-param name="preprocessorname" value=""/>
             <config-param name="urlprovider" value=""/>
@@ -16,7 +16,7 @@
             <config-param name="proxyusername" value=""/>
             <config-param name="http.method" value="GET"/>
             <config-param name="isembedxmlpresent" value="false"/>
-            <config-param name="ignorehttpproxy" value="false"/>
+            <config-param name="ignorehttpproxy" value="true"/>
             <config-param name="responseEncoding" value="UTF-8"/>
             <config-param name="server.auth.mode" value="basic"/>
             <config-param name="server.auth.host" value=""/>
@@ -24,17 +24,14 @@
          </service-config>
          <service-input/>
          <service-output>
-            <dataset id="stocks" src="//xml_api_reply /finance">
-               <param datatype="string" format="None" formatvalue="" name="company" sms-name="" src="//company/@data" target=""/>
-               <param datatype="string" format="None" formatvalue="" name="symbol" sms-name="" src="//symbol/@data" target=""/>
-               <param datatype="string" format="None" formatvalue="" name="price" sms-name="" src="//y_close /@data" target=""/>
-               <param datatype="string" format="None" formatvalue="" name="imgUrl" sms-name="" src="//chart_url/@data" target=""/>
-               <param datatype="string" format="None" formatvalue="" name="currency" sms-name="" src="//currency/@data" target=""/>
-               <param datatype="string" format="None" formatvalue="" name="exchange" sms-name="" src="//exchange/@data" target=""/>
-               <param datatype="string" format="None" formatvalue="" name="high" sms-name="" src="//high/@data" target=""/>
-               <param datatype="string" format="None" formatvalue="" name="low" sms-name="" src="//low/@data" target=""/>
-               <param datatype="string" format="None" formatvalue="" name="last" sms-name="" src="//last/@data" target=""/>
-               <param datatype="string" format="None" formatvalue="" name="url" sms-name="" src="//symbol_url /@data" target=""/>
+            <dataset id="stocks" src="//results">
+               <param datatype="string" format="None" formatvalue="" name="company" sms-name="" src="quote/Name" target="response"/>
+               <param datatype="string" format="None" formatvalue="" name="symbol" sms-name="" src="quote/Symbol" target=""/>
+               <param datatype="string" format="None" formatvalue="" name="price" sms-name="" src="quote/PreviousClose" target=""/>
+               <param datatype="string" format="None" formatvalue="" name="high" sms-name="" src="quote/YearHigh" target=""/>
+               <param datatype="string" format="None" formatvalue="" name="low" sms-name="" src="quote/YearLow" target=""/>
+               <param datatype="string" format="None" formatvalue="" name="last" sms-name="" src="quote/LastTradePriceOnly" target=""/>
+               <param datatype="string" format="None" formatvalue="" name="exchange" sms-name="" src="quote/StockExchange" target=""/>
             </dataset>
             <param datatype="number" format="None" formatvalue="" name="opstatus" sms-name="" src="" target=""/>
             <param datatype="string" format="None" formatvalue="" name="errmsg" sms-name="" src="" target=""/>

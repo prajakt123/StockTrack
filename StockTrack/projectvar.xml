@@ -3,4 +3,5 @@
     </dataset>
     <attributes datatype="string" value="" name="url"/>
     <attributes datatype="boolean" value="true" name="isMobile"/>
+    <attributes datatype="string" value="AAPL" name="symbl"/>
 </globals>
